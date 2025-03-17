@@ -1,4 +1,4 @@
-import src.ChromeDinosaur;
+package src;
 
 import javax.swing.*;
 
