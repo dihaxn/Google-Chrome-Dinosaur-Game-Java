@@ -13,7 +13,7 @@ public class ChromeDinosaur extends JPanel{
     //Immage
     Image dinosaurImg;
     Image dinosaurDeadImg;
-    Image dinosaurJumping;
+    Image dinosaurJumpImg;
     Image cactus1Img;
     Image cactus2Img;
     Image cactus3Img;
@@ -22,6 +22,16 @@ public class ChromeDinosaur extends JPanel{
 
         setPreferredSize(new Dimension(boardWidth,boardHeight));
         setBackground(Color.lightGray);
+
+        dinosaurImg = new ImageIcon(getClass().getResource("./img/dino-run.gif")).getImage();
+        dinosaurDeadImg = new ImageIcon(getClass().getResource("./img/dino-dead.png")).getImage();
+        dinosaurJumpImg = new ImageIcon(getClass().getResource("./img/dino-jump.png")).getImage();
+        cactus1Img = new ImageIcon(getClass().getResource("./img/dino-cactua1.png")).getImage();
+        cactus2Img = new ImageIcon(getClass().getResource("./img/dino-cactua2.png")).getImage();
+        cactus3Img = new ImageIcon(getClass().getResource("./img/dino-cactua3.png")).getImage();
+
+
+
 
     }
 
